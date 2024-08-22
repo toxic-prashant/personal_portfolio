@@ -36,16 +36,16 @@ const Banner=()=> {
                 <p className="mt-2">A versatile developer skilled in front-end, back-end, and full-stack development, focused on building dynamic, responsive web applications. Committed to delivering quality work and ensuring user satisfaction through modern technologies.</p>
                 <div className="icons-container space-x-5 flex ">
                 <div className="hover:bg-orange-400 border cursor-pointer px-3 py-4 w-14 h-14 rounded-full flex justify-center items-center bg-gray-700">
-                <i class="fa-solid text-4xl fa-envelope"></i>
+                <i class="fa-solid text-4xl fa-envelope"><a href="mailto:yadavprashant1016@gmail.com"></a></i>
                 </div>
                 <div className="hover:bg-orange-400 border cursor-pointer px-3 py-4 w-14 h-14 rounded-full flex justify-center items-center bg-gray-700">
-                <i class="fa-brands text-4xl fa-github"></i>
+                <i class="fa-brands text-4xl fa-github"><a href="https://github.com/toxic-prashant"></a></i>
                 </div>
                 <div className="hover:bg-orange-400 border cursor-pointer px-3 py-4 w-14 h-14 rounded-full flex justify-center items-center bg-gray-700">
                 <i class="fa-brands text-4xl fa-instagram"></i>
                 </div>
                 <div className="hover:bg-orange-400 border cursor-pointer px-3 py-4 w-14 h-14 rounded-full flex justify-center items-center bg-gray-700">
-                <i class="fa-brands text-4xl fa-linkedin"></i>
+                <i class="fa-brands text-4xl fa-linkedin"><a href="https://www.linkedin.com/in/prashant-yadav07/"></a></i>
                 </div>
                 </div>
                 <br />
