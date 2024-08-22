@@ -3,8 +3,8 @@ import { useState } from "react";
 const Header=()=>{
     const[brandName, setBrandName]=useState("Prashant Yadav")
     const[actionButton, setActionButton]=useState({
-        title:"Hire me",
-        link:"/hire-me"
+        title:"Download CV",
+        link:"/Prashant Yadav Resume.pdf"
     })
     const[menuLinks, setMenuLinks]=useState([
         {
@@ -53,7 +53,7 @@ const Header=()=>{
                 <a href="/contact" className="hover:text-orange-600">Contact</a> */}
             </div>
             <div>
-                <a href={actionButton.link} className="px-3 py-2 bg-orange-500 shadow rounded-full text-1xl">{actionButton.title}</a>
+                <a href={actionButton.link} download className="px-3 py-2 bg-orange-500 shadow rounded-full text-1xl">{actionButton.title}</a>
             </div>
         </div>
     );
