@@ -4,7 +4,7 @@ const Header=()=>{
     const[brandName, setBrandName]=useState("Prashant Yadav")
     const[actionButton, setActionButton]=useState({
         title:"Download CV",
-        link:"/Prashant Yadav Resume.pdf"
+        link:process.env.PUBLIC_URL + "/Prashant Yadav Resume.pdf"
     })
     const[menuLinks, setMenuLinks]=useState([
         {
