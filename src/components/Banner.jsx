@@ -33,7 +33,7 @@ const Banner=()=> {
                 <h3 className="text-3xl font-semibold">Hi, I am</h3>
                 <h1 className="mt-2 text-5xl font-bold">Prashant Yadav</h1>
                 <h2 className="mt-2 text-3xl">And I am a <span className="font-bold underline" ref={el}></span></h2>
-                <p className="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe possimus quam consequatur quos nam. Quae eaque repellendus possimus ipsum cupiditate atque, animi itaque illum sunt accusantium labore a doloremque. Cumque asperiores, ducimus ipsa incidunt eveniet neque sunt voluptatibus fugiat, odio quae atque optio repudiandae tenetur ab eligendi maxime aliquam non?</p>
+                <p className="mt-2">A versatile developer skilled in front-end, back-end, and full-stack development, focused on building dynamic, responsive web applications. Committed to delivering quality work and ensuring user satisfaction through modern technologies.</p>
                 <div className="icons-container space-x-5 flex ">
                 <div className="hover:bg-orange-400 border cursor-pointer px-3 py-4 w-14 h-14 rounded-full flex justify-center items-center bg-gray-700">
                 <i class="fa-solid text-4xl fa-envelope"></i>
@@ -49,7 +49,7 @@ const Banner=()=> {
                 </div>
                 </div>
                 <br />
-                <a href="/contact" className="text-1xl px-3 py-2 bg-orange-500 shadow-lg rounded-full">Contact Me</a>
+                <a href="mailto:yadavprashant1016@gmail.com" className="text-1xl px-3 py-2 bg-orange-500 shadow-lg rounded-full">Contact Me</a>
                 </div>
             </div>
             <div className="w-full flex justify-center">
