@@ -4,8 +4,8 @@ const About = () => {
   const [data, setData] = useState({
     image: bannerImage,
     title: "Java Developer & Android Developer",
-    desc1: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium doloremque velit dolorem ipsam quos quasi laudantium debitis ducimus deserunt ex.`,
-    desc2: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ipsam, adipisci quos dicta vitae non, provident sequi delectus temporibus sint commodi ullam impedit dolorem mollitia fugiat molestiae, eum nulla cumque laboriosam alias numquam illo tenetur? Saepe expedita vero officia, perspiciatis at debitis ratione earum provident sunt animi explicabo doloribus? Laudantium.`,
+    desc1: `I'm Prashant Yadav, a passionate and versatile developer with expertise in front-end, back-end, and full-stack development.`,
+    desc2: `I specialize in building dynamic, responsive web applications using modern technologies like React, JavaScript, and CSS. My goal is to create user-friendly, efficient, and innovative digital experiences. With a strong commitment to quality and continuous learning, I thrive on solving complex problems and delivering impactful solutions. When I'm not coding, I enjoy exploring new tools and contributing to open-source projects.`,
     actionButton: {
         title: "Read More...",
         link: '/readmore'
