@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Header=()=>{
+const Header=({ scrollToSection, sections })=>{
     const[brandName, setBrandName]=useState("Prashant Yadav")
     const[actionButton, setActionButton]=useState({
         title:"Download CV",
@@ -9,27 +9,27 @@ const Header=()=>{
     const[menuLinks, setMenuLinks]=useState([
         {
             title:"Home",
-            link:"/home",
+            ref: sections.homeRef,
             id:1
         },
         {
             title:"About",
-            link:"/about",
+            ref: sections.aboutRef,
             id:2
         },
         {
             title:"Skills",
-            link:"/skills",
+            ref: sections.servicesRef,
             id:3
         },
-        {
-            title:"Portfolio",
-            link:"/portfolio",
-            id:4
-        },
+        // {
+        //     title:"Portfolio",
+        //     ref: sections.portfolioRef,
+        //     id:4
+        // },
         {
             title:"Contact",
-            link:"/contact",
+            ref: sections.footerRef,
             id:5
         },
     ])
@@ -41,7 +41,7 @@ const Header=()=>{
             <div className="space-x-4">
 
                 {menuLinks.map((link)=>(
-                    <a key={link.id} href={link.link} className="hover:text-orange-600">
+                    <a key={link.id} href="#" onClick={() => scrollToSection(link.ref)} className="hover:text-orange-600">
                         {link.title}
                     </a>
                 ))}
