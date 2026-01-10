@@ -4,7 +4,7 @@ const Header=({ scrollToSection, sections })=>{
     const[brandName, setBrandName]=useState("Prashant Yadav")
     const[actionButton, setActionButton]=useState({
         title:"Download CV",
-        link: "/personal_portfolio/Prashant_Yadav_Resume.pdf"
+        link: "/Prashant_Yadav_Resume.pdf"
     })
     const[menuLinks, setMenuLinks]=useState([
         {
@@ -34,11 +34,11 @@ const Header=({ scrollToSection, sections })=>{
         },
     ])
     return (
-        <div className="h-20 border main flex justify-between bg-gray-200 items-center px-16">
+        <div className="h-20 border main flex justify-between bg-gray-200 items-center px-4 md:px-16">
             <div>
                 <h1 className="text-2xl font-bold">{brandName}</h1>
             </div>
-            <div className="space-x-4">
+            <div className="hidden md:flex space-x-4">
 
                 {menuLinks.map((link)=>(
                     <a key={link.id} href="#" onClick={() => scrollToSection(link.ref)} className="hover:text-orange-600">
@@ -53,7 +53,7 @@ const Header=({ scrollToSection, sections })=>{
                 <a href="/contact" className="hover:text-orange-600">Contact</a> */}
             </div>
             <div>
-                <a href={actionButton.link} download className="px-3 py-2 bg-orange-500 shadow rounded-full text-1xl">{actionButton.title}</a>
+                <a href={actionButton.link} download="Prashant_Yadav_Resume.pdf" target="_blank" rel="noreferrer" aria-label="Download CV" className="px-3 py-2 bg-orange-500 shadow rounded-full text-sm md:text-1xl">{actionButton.title}</a>
             </div>
         </div>
     );
